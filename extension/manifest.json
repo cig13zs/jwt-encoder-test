@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "Jwt-encoder-test \u2014 Generate mock JWT tokens with custom cla",
-  "version": "1.0.0",
-  "description": "Generate mock JWT tokens with custom claims and HMAC signatures for testing offline.",
+  "name": "JWT test token builder",
+  "version": "1.1.0",
+  "description": "Create HS256 JWTs for local fixtures and decode the result. Do not use it as an authentication service.",
   "icons": {
     "16": "icons/icon16.png",
     "48": "icons/icon48.png",
@@ -11,6 +11,6 @@
   "permissions": [],
   "action": {
     "default_popup": "popup.html",
-    "default_title": "Jwt-encoder-test"
+    "default_title": "JWT test token builder"
   }
 }
